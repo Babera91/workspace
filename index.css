@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: black;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -11,4 +12,70 @@ a{
 ul{
     text-align: center;
     
+}
+
+#Header{
+    background-image: url("assets/img/Header.jpg");
+    width: 100vw;
+    height: 50vh;
+    background-position: center;
+    background-size: cover
+}
+#KamDiv{
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#KText{
+    margin-top: 10%;
+margin-right: 20%;
+}
+.Pictures{
+    margin-left: 10%;
+    width: 30%;
+    height: 100%;
+}
+#BWDiv{
+    display: flex;
+}
+#Bewerbung{
+    margin-right: 5%;
+}
+#BwTextField{
+    margin-top: 2%;
+    margin-right: 10%;
+}
+#BWText{
+    margin-right: 0;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+#BwPicture{
+    width: 70%;
+    height: 80%;
+    margin-left: 5%;
+}
+#BWButton{
+    
+    border-style: solid;
+    padding: 4% 9%;
+    border-radius: 50px;
+}
+#aboutDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 5%;
+    
+}
+#ÜberUns{
+   text-align: center;
+    
+}
+#abutPicutre{
+    margin-left: 30%;
+    width: 70%;
+    height: 50%; 
+}
+#AUText{
+    margin-top: 10%;
 }
